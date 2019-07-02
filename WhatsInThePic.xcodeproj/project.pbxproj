@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7A265922CBCC88002E9F5B /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DA7A265822CBCC88002E9F5B /* Resnet50.mlmodel */; };
 		DA8D5B4B22CB869500757992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D5B4A22CB869500757992 /* AppDelegate.swift */; };
 		DA8D5B4D22CB869500757992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D5B4C22CB869500757992 /* ViewController.swift */; };
 		DA8D5B5022CB869500757992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8D5B4E22CB869500757992 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA7A265822CBCC88002E9F5B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		DA8D5B4722CB869500757992 /* WhatsInThePic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsInThePic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8D5B4A22CB869500757992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8D5B4C22CB869500757992 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		DA8D5B4922CB869500757992 /* WhatsInThePic */ = {
 			isa = PBXGroup;
 			children = (
+				DA7A265822CBCC88002E9F5B /* Resnet50.mlmodel */,
 				DA8D5B4A22CB869500757992 /* AppDelegate.swift */,
 				DA8D5B4C22CB869500757992 /* ViewController.swift */,
 				DA8D5B4E22CB869500757992 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8D5B4D22CB869500757992 /* ViewController.swift in Sources */,
+				DA7A265922CBCC88002E9F5B /* Resnet50.mlmodel in Sources */,
 				DA8D5B4B22CB869500757992 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZEYZKW2XY2;
 				INFOPLIST_FILE = WhatsInThePic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZEYZKW2XY2;
 				INFOPLIST_FILE = WhatsInThePic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
